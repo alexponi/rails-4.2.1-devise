@@ -44,3 +44,14 @@ group :development, :test do
   gem 'spring'
 end
 
+
+gem 'devise'
+gem 'therubyracer', :platform=>:ruby
+
+group :development do
+  gem 'better_errors'
+  gem 'quiet_assets'
+  gem 'rails_apps_pages'
+  gem 'rails_layout'
+end
+
